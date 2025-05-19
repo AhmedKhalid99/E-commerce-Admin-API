@@ -47,11 +47,13 @@ The API doc will be available at: [base-url:port/docs](http://localhost:8000/doc
 ## API Endpoints
 
 📁 Products
+
 POST /products/create/ – Create Product
 
 GET /products/ – Get Products
 
 🧾 Sales
+
 POST /sales/order/create/ – Create Order
 
 GET /sales/orders/ – List Orders
@@ -66,7 +68,7 @@ GET /sales/compare-revenue_categories – Compare Revenue Categories
 
 GET /sales/compare-revenue/by-category-period – Compare Revenue By Category And Period
 
-GET /sales/filter – Filter Sales Data
+GET /sales/filter – Filter Sales Data wrt to category, product and time period
 
 📦 Inventory
 GET /inventory-management/ – Get Inventory List
