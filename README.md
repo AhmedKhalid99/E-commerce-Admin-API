@@ -30,6 +30,7 @@ DB_NAME=your-db-name
 ```
 
 ### 3. **Seed the Database (MUST)**
+- Make sure you have created database in mysql with the name as you specified in .env file
 - In order to create the tables and populate data run this command:
 
 ```bash
@@ -75,6 +76,7 @@ GET /sales/compare-revenue/by-category-period – Compare Revenue By Category An
 GET /sales/filter – Filter Sales Data wrt to category, product and time period
 
 📦 Inventory
+
 GET /inventory-management/ – Get Inventory List
 
 GET /inventory-management/low-stock/ – Get Low Stock Alerts
@@ -83,7 +85,10 @@ POST /inventory-management/update/ – Update Inventory Level
 
 GET /inventory-management/changes/ – Get Inventory Change History
 
+
+
 🏠 Default
+
 GET / – Read Root
 
 ## Notes
