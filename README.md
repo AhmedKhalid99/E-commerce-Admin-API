@@ -4,7 +4,7 @@ This project provides an admin backend API for managing products, inventory, and
 
 ## ✅ Requirements
 
-- Python 3.10+
+- Python
 - MySQL Server
 - pip
 
@@ -34,6 +34,10 @@ DB_NAME=your-db-name
 
 ```bash
 python3 app/seed_db.py
+```
+Or 
+```bash
+python app/seed_db.py
 ```
 
 ### 4. Run the Application
